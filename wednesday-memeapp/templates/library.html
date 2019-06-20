@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title> My Meme Library</title>
+  </head>
+  <body>
+    {% for meme in memes %}
+    <div class = "singlememe">
+      <div id="meme-div" style="background-image:url( {{meme.url}});">
+        <h2 id="line1"> {{meme.top_line}}</h2>
+        <h2 id="line2"> {{meme.btm_line}}</h2>
+      </div>
+      <h5 id = "created"> Created By: {{meme.username}} ({{meme.date_str}})</h5>
+      </div>
+      {% endfor %}
+  </body>

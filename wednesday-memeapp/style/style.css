@@ -1,0 +1,31 @@
+#meme-div {
+  width: 400px;
+  height: 350px;
+  background-size: 100%;
+}
+
+h2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 15px;
+  color: white;
+  text-shadow: 1px 1px gold;
+  font-family: impact;
+}
+
+#line2 {
+  position: relative;
+  down: 30px;
+}
+
+#line1 {
+  position: relative;
+}
+
+
+.singlememe{
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+}

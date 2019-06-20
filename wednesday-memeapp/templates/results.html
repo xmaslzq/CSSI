@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>Your Meme</h1>
+    <!--The image needs to be rendered for each new meme
+    so set the div's background-image property inline -->
+    <div id="meme-div" style="background-image:url( {{img_url}});">
+      <h2 id="line1"> {{line1}}</h2>
+      <h2 id="line2"> {{line2}}</h2>
+    </div>
+    <h5 id = "created"> Created By: {{author}} ({{date}})</h5>
+  </body>
+</html>
